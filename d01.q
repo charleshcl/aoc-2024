@@ -7,4 +7,4 @@ res:abs s1-s2
 res:abs ((asc src[`s1]) - (asc src[`s2]))
 0 +/ res
 
-asc / src
+\\
