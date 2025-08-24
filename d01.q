@@ -1,4 +1,4 @@
-src:`s1`s2!"II" $ flip "   "vs/:read0 `:01.txt
+src:`s1`s2!"II" $ flip "   "vs/:read0 `:d01.txt
 // part 1
 s1:asc src.s1
 s2:asc src.s2
