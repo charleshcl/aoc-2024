@@ -7,7 +7,8 @@ sum part1 each src
 // part 2
 // this got issue with combination
 // part2:{res:part1 x;combo:x except/: x;if[0b=res;res:any 1b=(part1 each combo)];:res}
-rmAt:{[x;i] (i#x),(i+1)_ x}
+//rmAt:{[x;i] (i#x),(i+1)_ x}
+rmAt:{[x;i] x _i}
 combN1:{[x] (rmAt[x;]) each til count x}
 part2:{res:part1 x;combo:combN1 x;if[0b=res;res:any 1b=(part1 each combo)];:res}
 sum part2 each src
